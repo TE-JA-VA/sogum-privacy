@@ -1,22 +1,27 @@
 # 소금항아리 개인정보 처리방침
 
-시행일 2026년 9월 25일 · 적용 앱: 소금항아리 (iPhone, iPad, Mac)
+시행일 2026년 9월 27일 · 적용 앱: 소금항아리 (iPhone, iPad, Mac, Android)
 
 웹 페이지 버전: https://te-ja-va.github.io/sogum-privacy/
 
-**요약:** 소금항아리 앱은 개인정보를 수집하지 않습니다. 계정도, 광고도, 분석 도구도 없습니다. 즐겨찾기와 설정은 오직 사용자의 기기 안에만 저장됩니다.
+**요약:** 소금항아리 앱은 개인정보를 수집하지 않습니다. 계정도, 광고도, 분석 도구도 없습니다. 즐겨찾기와 설정은 사용자의 기기에 저장되고, 즐겨찾기 목록은 사용자 본인의 iCloud나 Google 백업 안에서만 옮겨집니다. 개발자는 이 정보를 볼 수 없습니다.
 
 ## 1. 수집하는 개인정보
 
 없습니다. 이름, 이메일, 전화번호, 위치, 연락처, 기기 식별자 등 어떤 개인정보도 수집·저장·전송하지 않습니다. 회원 가입이나 로그인이 없습니다.
 
-## 2. 기기 안에만 저장되는 정보
+## 2. 사용자의 기기에 저장되는 정보
 
 - 즐겨찾기: 사용자가 ♥로 저장한 묵상 글, 카드 이미지, 음성 파일
 - 설정: 글꼴, 글자 크기, 읽어주기 속도·목소리, 마지막으로 듣던 위치
 - 임시 파일: 빠른 표시를 위해 내려받은 글·이미지·음성 (앱을 지우면 함께 삭제됨)
 
-이 정보는 사용자의 기기를 떠나지 않으며, 개발자를 포함해 누구에게도 전송되지 않습니다.
+이 정보는 개발자를 포함해 누구에게도 전송되지 않습니다. 다만 다음 경우에는 사용자 본인의 계정 안에서만 옮겨집니다.
+
+- iPhone, iPad, Mac: 즐겨찾기 목록(어떤 글을 언제 저장했는지)이 사용자의 iCloud 계정을 통해 같은 계정의 다른 기기와 맞춰집니다. 글, 이미지, 음성은 각 기기가 직접 내려받습니다. iCloud에 로그인하지 않았거나 iCloud를 끄면 맞춰지지 않습니다.
+- Android: 휴대폰의 Google 백업이 켜져 있으면 즐겨찾기 목록과 설정이 사용자의 Google 계정 백업에 들어가, 새 휴대폰으로 옮길 때 되살아납니다.
+
+iCloud와 Google 백업은 Apple과 Google이 제공하는 기능이며, 개발자는 그 내용에 접근할 수 없습니다.
 
 ## 3. 인터넷 연결
 
@@ -24,6 +29,7 @@
 
 - 생활성서사 (biblelife.co.kr): 묵상 글과 카드 이미지
 - GitHub (github.com): 미리 만들어 둔 읽어주기 음성 파일
+- 한국천주교주교회의 매일미사 (missa.cbck.or.kr): 전례력과 전례색
 
 ## 4. 기기 권한
 
@@ -53,4 +59,4 @@
 
 ---
 
-**Privacy Policy (English summary).** The 소금항아리 app collects no personal data. There are no accounts, ads, or analytics. Favorites and settings are stored only on your device. The app downloads content from biblelife.co.kr (meditation texts and images) and github.com (pre-generated audio); those servers may log your IP address under their own policies, and the app sends no identifiers. The Photos "add only" permission is requested solely when you choose to save a card image. Contact: github.com/TE-JA-VA. Effective September 25, 2026.
+**Privacy Policy (English summary).** The 소금항아리 app collects no personal data. There are no accounts, ads, or analytics. Favorites and settings are stored on your device; the list of favorites is carried only within your own iCloud account (to your other Apple devices) or your Google backup (when moving to a new Android phone), which the developer cannot access. The app downloads content from biblelife.co.kr (meditation texts and images) github.com (pre-generated audio) and missa.cbck.or.kr (liturgical calendar); those servers may log your IP address under their own policies, and the app sends no identifiers. The Photos "add only" permission is requested solely when you choose to save a card image. Contact: github.com/TE-JA-VA. Effective September 27, 2026.
